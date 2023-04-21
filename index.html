@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+<style>
+body {
+  background-color: black;
+  font-family: 'Fira Code', monospace;
+  color: #008801;
+}
+
+pre {
+  font-size: 1.2em;
+}
+
+.nno {
+  color: #e33e33;
+}
+
+.gate {
+  color: #999;
+}
+</style>
+</head>
+<body>
+<pre id="content">
+<b>The On-Line Encyclopedia of Boolean Functions</b>
+
+Info
+----
+
+&bullet; gate library legend
+  &bullet; <span class="gate">MAJ</span> 0b11101000
+  &bullet; <span class="gate">NOT</span> 0b01
+&bullet; <span class="nno">red</span> numbers are not necessarily optimum
+
+Majority-<i>n</i>
+----------
+
+<u>Problem:</u> What is the smallest number <i>S</i>(<i>n</i>) of Majority-3 gates
+in a logic network over {<span class="gate">MAJ</span>} to represent Majority-<i>n</i>?
+
+<i>n</i>    =  3  5  7   9
+<i>S</i>(<i>n</i>) =  1  4  7  <span class="nno">13</span>
+
+
+<u>Problem:</u> What is the smallest number <i>S</i>(<i>n</i>) of Majority-3 gates
+in a logic network over {<span class="gate">MAJ</span>, <span class="gate">NOT</span>} to represent Majority-<i>n</i>?
+
+<i>n</i>    =  3  5  7   9
+<i>S</i>(<i>n</i>) =  1  4  7  <span class="nno">12</span>
+
+</pre>
+</body>
+</html>
